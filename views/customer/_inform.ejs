@@ -1,0 +1,11 @@
+<div class="border-bottom">
+  <div class="float-left">
+    <%  if (session.customer) {  %>
+    Hello <b><%=session.customer.name%></b> | <a href="./logout" style="color:black ; font-weight: bold;">Logout</a> | <a href="./myprofile" style="color: black; font-weight: bold;">My profile</a> | <a href="./myorders" style="color: black;font-weight: bold;">My orders</a>
+    <%  } %>
+  </div>
+  <div class="float-right">
+    <p style="display: inline; color: black;">My cart</p> have <b><%= (session.mycart) ? session.mycart.length : 0 %></b> items
+  </div>
+  <div class="float-clear"></div>
+</div>

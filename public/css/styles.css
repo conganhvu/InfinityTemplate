@@ -1,0 +1,48 @@
+@import url("./menu.css");
+@import url("./datatable.css");
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("LoginBackground.jpg");
+    background-position: center;
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+body.admin {
+    width: fit-content;
+    height: fit-content;
+    margin: 0px auto;
+    /* border: 1px solid black; */
+}
+
+div.inline {
+    display: inline-block;
+    /* border: 1px solid black; */
+}
+
+figure.caption-right {
+    display: flex;
+    align-items: center;
+}
+
+.align-center {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.align-valign-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 20px 0px 20px;
+    border: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
